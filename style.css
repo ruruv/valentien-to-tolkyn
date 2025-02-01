@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+    background-color: #ffe4e1; /* Нежно-розовый фон */
+    transition: background-color 0.5s ease;
+    color: #333;
+    margin: 0;
+}
+
+/* Гифка сверху */
+.love-gif {
+    width: 250px;
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+p {
+    font-size: 1.8em;
+    color: #d63384;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.3em;
+    padding: 12px 25px;
+    cursor: pointer;
+    background-color: #ff5e5b;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff3366;
+    transform: scale(1.1);
+}
+
+#choiceButtons {
+    margin-top: 20px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
