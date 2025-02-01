@@ -20,7 +20,7 @@ function acceptChoice() {
   document.body.style.backgroundColor = "#ffccdd";
 
   // Меняем гифку
-  bearGif.src = "public/images/happy-bear.gif"; // Ставим радостного мишку
+  bearGif.src = "images/happy-bear.gif"; // Ставим радостного мишку
 
   // Показываем сообщение
   let message = document.createElement('p');
